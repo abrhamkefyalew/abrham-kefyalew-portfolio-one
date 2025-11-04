@@ -1,10 +1,17 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-muted/30 px-4 py-20">
       <div className="max-w-5xl mx-auto text-center space-y-8">
+        <div className="flex justify-center">
+          <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+            <Image src="/images/abrham-portrait.png" alt="Abrham Kefyalew" fill className="object-cover" priority />
+          </div>
+        </div>
+
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">Abrham Kefyalew</h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-mono">Backend Developer | DevOps Expert</p>
