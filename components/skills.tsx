@@ -4,24 +4,25 @@ import { Badge } from "@/components/ui/badge"
 const skillCategories = [
   {
     title: "Backend Development",
-    skills: ["Laravel", "PHP", ".NET", "C#", "Java/Spring Boot", "API Design", "API Integration", "Microservices"],
+    skills: ["Laravel", "PHP", "Java Spring Boot", ".NET", "C#", "Node.js", "Go", "Python", "API Design", "Microservices"],
+  },
+  {
+    title: "Frontend Development",
+    skills: ["React.js", "Next.js", "TypeScript", "Flutter", "Responsive Design"],
   },
   {
     title: "Databases",
-    skills: ["MySQL", "PostgreSQL", "Database Optimization", "Query Tuning"],
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Database Optimization", "Query Tuning"],
   },
   {
-    title: "DevOps & Cloud",
+    title: "Cloud & DevOps",
     skills: [
-      "AWS (EC2, EKS, S3, IAM)",
+      "AWS (EC2, EKS, S3, IAM, RDS)",
       "Google Cloud Platform (GCP)",
-      "Azure",
+      "Microsoft Azure (App Services, Functions, PostgreSQL Flexible Server, Storage, Monitor, Application Insights)",
       "Docker",
       "Kubernetes",
-      "Minikube",
-      "CI/CD",
-      "Jenkins",
-      "GitHub Actions",
+      "CI/CD Pipelines",
     ],
   },
   {
@@ -30,15 +31,17 @@ const skillCategories = [
       "Terraform",
       "Ansible",
       "Infrastructure as Code (IAC)",
-      "Automated Backup",
+      "ARM/Bicep Templates",
+      "Jenkins",
+      "GitHub Actions",
       "Disaster Recovery",
       "Load Balancing",
       "Auto-scaling",
     ],
   },
   {
-    title: "Tools & Technologies",
-    skills: ["Git", "cPanel", "Nginx", "Payment Gateways", "Cybersource"],
+    title: "Monitoring & Tools",
+    skills: ["Prometheus", "Azure Monitor", "Application Insights", "Git", "cPanel", "Nginx", "Payment Gateways", "eKYC Integration"],
   },
 ]
 

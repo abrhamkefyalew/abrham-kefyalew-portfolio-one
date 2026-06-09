@@ -71,9 +71,7 @@ export function Contact() {
           <div className="pt-8 border-t space-y-4">
             <h3 className="text-xl font-semibold text-center">Ready to collaborate?</h3>
             <p className="text-center text-muted-foreground leading-relaxed">
-              I'm excited to apply for Backend Developer roles where I can contribute my expertise in Laravel, PHP, .NET
-              (C#), API design, MySQL/Postgres, and DevOps practices to help teams solve tough backend challenges and
-              drive meaningful impact.
+              I&apos;m available for full-time, freelance, and remote opportunities. With 5+ years of expertise in backend development, cloud infrastructure, and DevOps, I&apos;m ready to help teams build scalable, reliable systems. Whether it&apos;s Laravel, Java, Python, .NET, or cloud infrastructure—I&apos;m here to drive meaningful impact.
             </p>
             <div className="flex justify-center pt-4">
               <Button asChild size="lg" className="gap-2">
