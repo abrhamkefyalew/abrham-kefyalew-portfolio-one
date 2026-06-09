@@ -75,10 +75,43 @@ export function Skills() {
           <h3 className="text-2xl font-semibold mb-6 text-center">Notable Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Seregela Gebeya</h4>
+              <a
+                href="https://seregelagebeya.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-semibold text-primary hover:text-primary/80 transition-colors inline-block"
+              >
+                Seregela Gebeya →
+              </a>
               <p className="text-sm text-muted-foreground">
                 E-Commerce platform for FMCG products with web and Android support. Built backend with Laravel and
                 deployed on GCP using recommended practices.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <div>
+                <h4 className="text-lg font-semibold mb-2">Event Management and Ticketing System (Patatix)</h4>
+                <div className="flex flex-wrap gap-2 mb-2">
+                  <a
+                    href="http://tickets.patatix.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-2 py-1 bg-primary text-primary-foreground text-xs rounded font-medium hover:opacity-90 transition-opacity"
+                  >
+                    Production →
+                  </a>
+                  <a
+                    href="https://staging.patatix.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-2 py-1 bg-primary text-primary-foreground text-xs rounded font-medium hover:opacity-90 transition-opacity"
+                  >
+                    Staging →
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Comprehensive event management and ticketing platform for organizing events and selling tickets with secure payment integration.
               </p>
             </div>
             <div className="space-y-2">
@@ -93,12 +126,6 @@ export function Skills() {
               <p className="text-sm text-muted-foreground">
                 Vehicle rental and transport service platform. Laravel backend deployed on AWS with full DevOps
                 infrastructure.
-              </p>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Other Projects</h4>
-              <p className="text-sm text-muted-foreground">
-                School Management Systems, Donation Apps, Payment Middlewares, and various enterprise solutions.
               </p>
             </div>
           </div>
