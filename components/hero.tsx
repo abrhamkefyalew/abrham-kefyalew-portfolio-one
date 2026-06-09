@@ -14,12 +14,11 @@ export function Hero() {
 
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">Abrham Kefyalew</h1>
-          <p className="text-xl md:text-2xl text-muted-foreground font-mono">Backend Developer | DevOps Expert</p>
+          <p className="text-xl md:text-2xl text-muted-foreground font-mono">Software Engineer & DevOps Expert</p>
         </div>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-pretty">
-          Building secure and scalable backend systems with Laravel, PHP, .NET (C#), and modern DevOps practices.
-          Specialized in API design, database optimization, and cloud infrastructure.
+          5+ years building secure, scalable systems across Fintech and e-commerce. Expert in Laravel, PHP, .NET (C#), Spring Boot, and DevOps automation on AWS, GCP, and Azure.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
@@ -62,7 +61,7 @@ export function Hero() {
             <Linkedin className="h-5 w-5" />
           </a>
           <a
-            href="https://github.com/abrham"
+            href="https://github.com/abrhamkefyalew"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors flex items-center gap-2"
