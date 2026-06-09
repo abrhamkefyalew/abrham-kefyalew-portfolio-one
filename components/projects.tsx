@@ -30,7 +30,7 @@ export function Projects() {
         "Production-ready for nationwide launch",
       ],
       technologies: ["Laravel", "NextJS", "eKYC Integration", "GCP"],
-      status: "Production Ready",
+      status: "Active",
     },
     {
       name: "Event Management and Ticketing System (Patatix)",
@@ -63,7 +63,7 @@ export function Projects() {
       status: "Deployed",
     },
     {
-      name: "Adika Food Delivery",
+      name: "Adika Delivery",
       category: "Food Delivery",
       description: "Comprehensive food delivery ecosystem with apps for end-users, restaurants, and drivers",
       achievements: [
