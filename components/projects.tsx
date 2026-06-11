@@ -1,3 +1,5 @@
+"use client"
+
 export function Projects() {
   const projects = [
     {
@@ -148,19 +150,9 @@ export function Projects() {
             >
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                  <a
-                    href="#"
-                    className="text-2xl font-bold text-foreground hover:text-primary transition-colors inline-block"
-                    onClick={(e) => {
-                      if (project.links && project.links.length > 0) {
-                        e.preventDefault()
-                        window.open(project.links[0].url, "_blank")
-                      }
-                    }}
-                    style={{ cursor: project.links ? "pointer" : "default" }}
-                  >
+                  <h3 className="text-2xl font-bold text-foreground inline-block">
                     {project.name}
-                  </a>
+                  </h3>
                   <p className="text-sm text-muted-foreground font-mono mt-1">{project.category}</p>
                 </div>
                 <span className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full font-medium whitespace-nowrap ml-2">
